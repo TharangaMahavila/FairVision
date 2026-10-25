@@ -10,8 +10,6 @@ from torch.utils.data import DataLoader
 from datasets import load_dataset
 import torchvision.transforms as transforms
 
-os.environ["HF_TOKEN"] = "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"
-
 # Force Hugging Face and tqdm to use the simple command-line logger instead of notebook widgets
 os.environ["TQDM_DISABLE"] = "1"
 
